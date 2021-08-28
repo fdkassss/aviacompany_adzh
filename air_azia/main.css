@@ -35,7 +35,7 @@ p {
 }
 
 .container {
-  width: 1124px;
+  width: 1143px;
   margin: 0 auto;
 }
 
@@ -44,27 +44,24 @@ p {
 .header {
   min-height: 123.36px;
   position: relative;
+  margin-bottom: 74px;
 }
 
 .logo {
   display: inline-block;
-  position: absolute;
-  top: 26px;
-  left: 0; 
-  width: 85px;
-  height: 36px;
+  margin-top: 26px;
+  margin-right: 75px;
 }
 
 .menu {
-  position: absolute;
-  top: 40.36px;
-  left: 164px;  
+  display: inline-block;
+  width: 315px;
+  margin-top: 10px;
 }
 
 .menu__item {  
   display: inline-block;
   vertical-align: middle;
-
 }
 
 .menu__link {
@@ -93,6 +90,8 @@ p {
   line-height: 35px;
   color: red;
   text-decoration: none;
+  margin-top: 27px;
+  margin-right: 4px;
 }
 
 .contacts__graph {
@@ -108,6 +107,7 @@ p {
 
 .preview {
   width: 511px;
+  margin-bottom: 249px;
 }
 
 .preview__title {
@@ -124,7 +124,7 @@ p {
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 17px;
   color:red;
   margin-bottom: 33.5px; 
@@ -145,35 +145,31 @@ p {
   border: none;
 }
 
+.features {
+  width: 1142px;
+  margin-bottom: 155px;
+}
+
 
 .features__title {
   font-family: Open Sans, sans-serif;
   font-style: normal; 
   font-weight: bold;
   font-size: 39px;
-  line-height: 49px; 
+  line-height: 48px; 
   display: inline;
   color: red;
-  margin-bottom: 51px;
 }
 
 .features__title::after {
   content: url(./img/flame.png);
-  margin-left: 12px;
-  margin-bottom: 51px;
-}
-
-.features__list {
-  width: 1200px;
-  height: 449px;
-  left: 389px;
-  top: 875px;
+  margin-left: 10px;
 }
 
 .features__item {
   display: inline-block;
   width: 362px;
-  margin-right: 27px;
+  margin-right: 22px;
 }
 
 .features__item:last-child {
@@ -183,15 +179,15 @@ p {
 .features__img {
   width: 362px;
   height: 144px;
-  margin-bottom: 33px;
   margin-top: 51px;
+  margin-bottom: 33px;
 }
 
 .features__subtitle {
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 33px;
   color: #000000;
   margin-left: 22px;
@@ -216,22 +212,21 @@ p {
   line-height: 22px; 
   color: #666666; 
   display: inline-block; 
-  margin-right: 34px;
+  margin: 2px 34px 0px 6px;
   vertical-align: top;
 }
 
  .features__text {
-  margin-top: 19px;
-  margin-left: 22px;
-  margin-right: 16px;
+  margin: 19px 16px 0px 22px;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 21px;
   color: #303030;
-  width: 324px;
+  width: 323px;
   align-items: center;
+  margin-bottom: 14px;
  }
 
  .features__button {
@@ -260,34 +255,30 @@ p {
 }
 
 .news {
-  position: absolute;
   width: 1150px;
-  left: 389px;
-  top: 1451px;
+  margin-bottom: 140px;
 }
 
 .news__title {
-  margin-top: 0px;
-  margin-bottom: 51px;
   font-family: Open Sans, sans-serif;
   font-weight: bold;
   font-size: 39px;
-  line-height: 49px;
-  display: flex;
-  align-items: flex-end;
+  line-height: 47px;
   color: red;
+  margin-bottom: 51px;
 }
 
 .news__list {
   display: inline-block;
+  margin-bottom: 49px;
 }
 
 .news__item {
   display: inline-block;
-  width: 557px;
   vertical-align: top;
+  margin-right: 20px;
   position: relative;
-  margin-right: 25px;
+  width: 557px;
 }
 
 .news__item:last-child {
@@ -296,7 +287,6 @@ p {
 
 .news__img {
   border-radius: 5px;
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -307,22 +297,20 @@ p {
 .news__content {
   position: absolute;
   left: 0;
-  right: 0;
-  bottom: 0;
-  color: #FFFFFF;
-  padding: 25px 30px;
+  top: 229px;
+  padding-left: 30px;
   min-height: 140px;
 }
+
 
 .news__date-month {
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 21px;
-  display: flex;
+  font-size: 14px;
+  line-height: 24px;
   align-items: center;
-  color: #FFFFFF;
+  color: red;
   display: inline-block;
   margin-top: 22px;
 }
@@ -332,10 +320,9 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 21px;
-  display: flex;
+  line-height: 23px;
   align-items: center;
-  color: #FFFFFF;
+  color: red;
   display: inline-block;
   margin-bottom: 12.5px;
 }
@@ -346,9 +333,8 @@ p {
   font-weight: bold;
   font-size: 26px;
   line-height: 36px;
-  display: flex;
   align-items: center;
-  color:#FFFFFF;
+  color:red;
   margin-bottom: 3.5px;
 }
 
@@ -358,22 +344,15 @@ p {
   font-weight: normal;
   font-size: 17px;
   line-height: 21px;
-  display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color:red;
 }
 
 .paginator {
-  display: inline-block;
-  width: 700px;
-  height: 53px;
-  left: 382px;
-  top: 544px;
-  position: absolute;
+  text-align: center;
 }
 
 .paginator__display {
-  height: 32px;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -382,7 +361,8 @@ p {
   align-items: center;
   color: black;
   display: inline-block;
-  margin-right: 2px;
+  margin-left: 10px;
+  margin-top: 6px;
 }
 
 
@@ -411,11 +391,11 @@ p {
 
 .paginator__list {
   display: inline-block;
-  line-height: 32px;
 }
 
 .paginator__item {
   display: inline-block;
+  text-align: center;
   width: 32px;
   height: 32px;
 }
@@ -438,7 +418,6 @@ p {
   line-height: 21px;
   align-items: center;
   color: black;
-  margin: 5px 11px 5px 11px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -450,34 +429,25 @@ p {
 
 
 .about {
-  position: absolute;
-  width: 1139px;
-  height: 557px;
-  left: 389px;
-  top: 2020px;
-  margin-top: 152.5px;
-  margin-bottom: 53px;
-  display: inline-block;
-  vertical-align: top;
+  margin-bottom: 119px;
+  width: 1141px;
 }
 
 .about__img {
   display: inline-block;
   border-radius: 5px;
+  width: 490px;
 }
 
-.about__contant-block{
+.about__contant-block {
   display: inline-block;
   vertical-align: top;
   width: 785px;
-  height: 455px;
   margin-left: -140px;
-  margin-top: 102px;
+  margin-top: 97px;
+  position: relative;  
 }
 
-.about__background {
-  display: inline-block;
-}
 
 .about__background:hover {
   border-radius: 5px;
@@ -491,12 +461,10 @@ p {
   font-size: 36px;
   line-height: 49px;
   color: #000000;
-  margin-top: 70px;
+  margin-top: -388px;
   margin-left: 81px;
   margin-bottom: 37px;
-  position: absolute;
-  top: 99px;
-  left: 353px;
+  position: relative;
 }
 
 .about__text p {
@@ -509,10 +477,8 @@ p {
   color: #000000;
   margin-left: 81px;
   margin-right: 202px;
-  margin-bottom: 43px;
-  position: absolute;
-  top: 253px;
-  left: 353px;
+  margin-bottom: 70px;
+  width: 502px;
 }
 
 .about__button {
@@ -531,28 +497,18 @@ p {
   border-radius: 35px;
   background-color:#F5170E;
   margin-left: 81px;
-  position: absolute;
-  top: 432px;
-  left: 353px;
 }
 
 
 .footer {
-  height: 93px;
   width: 1142px;
-  position: absolute;
   margin: 0 auto;
-  top: 2826px;
-  left: 390px;
   margin-bottom: 58px;
   display: inline-block;
 }
 
 
 .contacts__text {
-  position: relative;
-  top: -44px;
-  left: 978px;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-size: 11px;
@@ -561,11 +517,7 @@ p {
 }
 
 .socials {
-  position: absolute;
-  top: 5px;
-  right: 240px;
   width: 200px;
-  height: 36px;
 }
 
 .socials__item {
@@ -575,7 +527,7 @@ p {
 }
 
 .socials__link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   width: 36px;
   height: 36px;

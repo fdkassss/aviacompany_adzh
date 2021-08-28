@@ -14,9 +14,9 @@ html {
 }
 
 body {
-  width: inherit;
-  height: inherit;
-  margin: 0;  
+  width: 100%;
+  height: 100%;
+  margin: 0; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,32 +30,35 @@ p {
 .wrapper {
   background-color: black;
   background: url('./img/фон.jpg');
-  /* margin: 0 auto; */
+  width: 100%;
+  height: 100%;
 }
 
+.container {
+  width: 1124px;
+  margin: 0 auto;
+}
+
+
+
 .header {
-  position: absolute;
-  width: 1141px;
-  height: 123.36px;
-  left: 390px;
-  top: 26.64px;
+  min-height: 123.36px;
+  position: relative;
 }
 
 .logo {
   display: inline-block;
   position: absolute;
-  top: 29px;
-  left: 390px;  
+  top: 26px;
+  left: 0; 
   width: 85px;
   height: 36px;
 }
 
 .menu {
   position: absolute;
-  top: 15.36px;
+  top: 40.36px;
   left: 164px;  
-  width: 330px;
-  height: 19px;
 }
 
 .menu__item {  
@@ -76,75 +79,53 @@ p {
   display: inline-block;
 }
 
+.contacts {
+  position: absolute;
+  right: 0;
+}
 
 .contacts__tel {
-  position: absolute;
-  display: inline-block;
-  top: 0.64px;
-  right: 3px;
+  display: block;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
   line-height: 35px;
-  display: flex;
-  align-items: center;
   color: red;
   text-decoration: none;
 }
 
 .contacts__graph {
-  position: absolute;
   display: inline-block;
-  right: 8px;
-  top: 27.14px;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: red;
 }
 
 .preview {
-  position: relative;
   width: 511px;
-  height: 333px;
-  left: 390px;
-  top: 196px;
 }
 
 .preview__title {
-  width: 511px;
-  height: 197px;
-  left: 390px;
-  top: 196px;
   font-family: Open Sans, sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 75px;
   line-height: 98px;
-  /* line-height: 1; */
   vertical-align: bottom;
   color: red;
   margin-bottom: 27.5px; 
 }
 
 .preview__text {
-  width: 196px;
-  height: 20px;
-  left: 390px;
-  top: 420.5px;
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 17px;
-  line-height: 82%;
-  display: flex;
-  align-items: center;
   color:red;
   margin-bottom: 33.5px; 
 }
@@ -152,8 +133,6 @@ p {
 .preview__button {
   width: 168px;
   height: 55px;
-  left: 390px;
-  top: 474px;   
   background: #F5170E;
   border-radius: 35px;
   color: #FFFFFF;
@@ -167,26 +146,13 @@ p {
 }
 
 
-.features {
-  position: absolute;
-  width: 1500px;
-  height: 549px;
-  left: 389px;
-  top: 775px;
-}
-
 .features__title {
-  width: 273px;
-  height: 49px;
-  left: 392px;
-  top: 775px;  
   font-family: Open Sans, sans-serif;
   font-style: normal; 
   font-weight: bold;
   font-size: 39px;
   line-height: 49px; 
   display: inline;
-  align-items: flex-end;
   color: red;
   margin-bottom: 51px;
 }
@@ -208,6 +174,10 @@ p {
   display: inline-block;
   width: 362px;
   margin-right: 27px;
+}
+
+.features__item:last-child {
+  margin-right: 0;
 }
 
 .features__img {
@@ -251,7 +221,7 @@ p {
 }
 
  .features__text {
-   margin-top: 19px;
+  margin-top: 19px;
   margin-left: 22px;
   margin-right: 16px;
   font-family: Open Sans, sans-serif;
